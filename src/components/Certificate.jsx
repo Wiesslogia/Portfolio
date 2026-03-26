@@ -12,7 +12,7 @@ const certificates = [
     description:
       "Completed NPTEL certification in Cloud Computing with strong cloud fundamentals including deployment models, services, and security.",
     tags: ["Cloud", "AWS", "IaaS", "PaaS"],
-    link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS107S145870100210780446",
+    link: "",
     accent: "#06d6a0",
     icon: "nptel",
   },
@@ -23,7 +23,7 @@ const certificates = [
     description:
       "Completed the Google Cybersecurity Professional Certificate covering SIEM, Linux command line, SQL, threat detection and incident response.",
     tags: ["SIEM", "Linux", "SQL", "Threat Detection"],
-    link: "https://www.coursera.org/account/accomplishments/specialization/9HEVO1P2IUG3",
+    link: "",
     accent: "#4cc9f0",
     icon: "google",
   },
@@ -34,7 +34,7 @@ const certificates = [
     description:
       "Built a strong foundation in Python including data types, control structures, functions, OOP, and file handling.",
     tags: ["Python", "OOP", "Scripting"],
-    link: "https://drive.google.com/file/d/1PEd1kA6qezxUHt-0OwZrAnVB3dxH4sDa/view",
+    link: "",
     accent: "#f72585",
     icon: "python",
   },
