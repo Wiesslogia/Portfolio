@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+/* ── Dark / Light theme variables ── */
+:root {
+  --bg-primary:   #07070f;
+  --bg-secondary: #0a0a1a;
+  --bg-tertiary:  #060614;
+  --card-bg:      rgba(10,10,20,0.85);
+  --card-border:  rgba(255,255,255,0.07);
+  --text-primary: #ffffff;
+  --text-muted:   rgba(255,255,255,0.72);
+  --text-faint:   rgba(255,255,255,0.45);
+  --scrollbar-track: #07070f;
+}
+
+html.light {
+  --bg-primary:   #f0f4ff;
+  --bg-secondary: #e8eeff;
+  --bg-tertiary:  #dde5ff;
+  --card-bg:      rgba(255,255,255,0.85);
+  --card-border:  rgba(0,0,0,0.08);
+  --text-primary: #0d0d1f;
+  --text-muted:   rgba(13,13,31,0.75);
+  --text-faint:   rgba(13,13,31,0.5);
+  --scrollbar-track: #e8eeff;
+}
+
+/* Section background utility classes */
+.section-primary   { background: var(--bg-primary)   !important; }
+.section-secondary { background: var(--bg-secondary) !important; }
+.section-tertiary  { background: var(--bg-tertiary)  !important; }
+
+/* Card overrides for light mode */
+html.light .theme-card {
+  background: rgba(255,255,255,0.9) !important;
+  border-color: rgba(0,0,0,0.1) !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  cursor: none;
+}
+
+a, button, [data-cursor], input, textarea, select, label {
+  cursor: none !important;
+}
+
+/* Pulse keyframe for status dot */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--scrollbar-track); }
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 245, 212, 0.2);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 245, 212, 0.4);
+}
+
+/* Text selection */
+::selection {
+  background: rgba(0, 245, 212, 0.18);
+  color: #00f5d4;
+}
