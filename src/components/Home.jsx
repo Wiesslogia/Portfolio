@@ -212,7 +212,7 @@ const Home = () => {
           >
             {[
               { icon: FaGithub,   href: "https://github.com/Wiesslogia",               accent: "#00f5d4", label: "GitHub" },
-              { icon: FaLinkedin, href: "https://linkedin.com/in/gautam-kumar-87b353278/", accent: "#4cc9f0", label: "LinkedIn" },
+              { icon: FaLinkedin, href: "https://www.linkedin.com/in/gotamPrajapati/", accent: "#4cc9f0", label: "LinkedIn" },
             ].map(({ icon: Icon, href, accent, label }) => (
               <motion.a key={label} href={href} target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl"

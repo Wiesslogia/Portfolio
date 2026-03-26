@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaPaperPlane } from "react-icons/fa";
 
 const socials = [
   { icon: FaGithub,   label: "GitHub",   href: "https://github.com/Wiesslogia",  accent: "#00f5d4" },
-  { icon: FaLinkedin, label: "LinkedIn",  href: "https://linkedin.com/in/gautam-kumar-87b353278/",                               accent: "#4cc9f0" },
+  { icon: FaLinkedin, label: "LinkedIn",  href: "https://www.linkedin.com/in/gotamPrajapati/",                               accent: "#4cc9f0" },
   { icon: FaEnvelope, label: "Email",     href: "mailto:gautamprajapati799@email.com",            accent: "#f72585" },
 ];
 

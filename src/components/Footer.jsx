@@ -49,7 +49,7 @@ const Footer = () => {
               </p>
               <div className="flex gap-3">
                 {[
-                  { icon: FaLinkedin, href: "https://linkedin.com/in/gautam-kumar-87b353278/", accent: "#4cc9f0" },
+                  { icon: FaLinkedin, href: "https://www.linkedin.com/in/gotamPrajapati/", accent: "#4cc9f0" },
                   { icon: FaGithub, href: "https://github.com/Wiesslogia", accent: "#00f5d4" },
                 ].map(({ icon: Icon, href, accent }) => (
                   <motion.a
